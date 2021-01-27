@@ -9,6 +9,6 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2      
     - name: Install ROS
-      uses: ros-tooling/setup-ros@0.1
+      uses: ros-tooling/setup-ros@0.1.2
       with:
         required-ros-distributions: kinetic
